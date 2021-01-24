@@ -43,7 +43,7 @@ public Product(Long id, String name, String description, Double price, String im
 	this.name = name;
 	this.description = description;
 	this.price = price;
-	this.imageUrl = imageUrl;
+	this.imgUrl = imageUrl;
 	this.date = date;
 }
 
@@ -80,11 +80,11 @@ public void setPrice(Double price) {
 }
 
 public String getImageUrl() {
-	return imageUrl;
+	return imgUrl;
 }
 
 public void setImageUrl(String imageUrl) {
-	this.imageUrl = imageUrl;
+	this.imgUrl = imageUrl;
 }
 
 public Instant getDate() {
